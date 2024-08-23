@@ -1,0 +1,149 @@
+body {
+    background-color:white;
+}
+
+p {
+    font-size: 35px;
+    color: rgb(64, 162, 64);
+    margin-left: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(92, 92, 255);
+    width: 600px;
+    border: solid #5c5cff;
+    margin-right: 25%;
+    border-radius: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul {
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 20px;
+
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+ul li a::before {
+    content: '';
+    width: 0px;
+    height: 5px;
+    background-color: #6833AD;
+    position: absolute;
+    top: 100%;
+    transition: .5s;
+}
+
+ul li:hover a::before{
+    width: 20%;
+    transform: translateX(100%);
+}
+
+
+img {
+    width: 1064px;
+    height: 400px;
+    margin-left: 1%;
+    
+}
+
+h5 {
+    margin-left: 2%;
+}
+
+nav a:hover {
+    width: 20%;
+    transform: translateX(100%);
+}
+
+.moving-text {
+    font-size: 1.5rem;
+    color: #333;
+    animation: moveText 7s linear infinite;
+    white-space: nowrap;
+    color: #ff0000;
+}
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+.footer-col {
+    width: 25%;
+    padding: 0 px;
+    background-color: #5c5cff;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-right: auto;
+    color: black;
+    font-weight: 600;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    background-color: #5c5cff;
+}
+.footer-col ul li:not( :last-child) {
+    margin-bottom: 15px;
+}
+.footer-col ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.footer-col ul li a:hover {
+    color: #5cff98;
+    padding-left: 10px;
+}
+#lorem {
+    font-size: 20px;
+    text-align: left;
+}
+h3 {
+    text-align: left;
+    font-size: 15px;
+    text-emphasis: none;
+    color: #ffa85c;
+}
