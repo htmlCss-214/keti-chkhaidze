@@ -1,0 +1,105 @@
+h1 {
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+}
+.container {
+    width: 90%;
+    padding: 100px;
+    margin:100px auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    width: 250px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+.box:hover {
+    transform: scale(1.5);
+    z-index: 0.5;
+
+}
+
+p {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+   
+    
+    background-color: rgb(241, 241, 237);
+
+  } 
+  
+  th,td {
+    border: 2px rgb(199, 199, 199);
+   
+    
+  }
+  
+  table.a {
+    table-layout: auto;
+    width: 500px;  
+    text-align: center;
+  }
+  
+  table.b {
+    table-layout: fixed;
+    width: 180px;  
+    text-align: center;
+    background-color:black
+  }
+  
+  table.c {
+    table-layout: auto;
+    width: 100%;  
+  }
+  
+  table.d {
+    table-layout: fixed;
+    width: 100%;  
+    text-align: center;
+  }
+#rank {
+    background-color: #56b092;
+}
+#name {
+    background-color: #56b092;
+}
+
+#points {
+    background-color: #56b092;
+}
+
+#team {
+    background-color: #56b092;
+}
+
+#color {
+    color: #378a6f;
+
+}
+
+
+input:focus {
+  background-color: rgb(251, 255, 0);
+}
+
+
