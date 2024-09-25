@@ -1,0 +1,127 @@
+@media (max-width: 1200px) {
+    /* Styles for large tablets and small desktops */
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+}
+
+@media (max-width: 480px) {
+    /* Styles for smaller mobile devices */
+}
+
+.blog-section {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+    color: #fff;
+    
+}
+
+.blog-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-header h1 {
+    font-size: 45px;
+    color: #ffde00;
+   
+    
+}
+
+.blog-header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.blog-posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-size: 2rem;
+    color: #ffde00;
+    margin-bottom: 10px;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.post-excerpt {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    color: #ffde00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #ffc800;
+}
+
+footer {
+    background-color: black;
+    padding: 130px;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 25px;
+    border-radius: 20%;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a {
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+    color: rgb(255, 228, 170);
+}

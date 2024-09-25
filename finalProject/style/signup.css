@@ -1,0 +1,253 @@
+@media (max-width: 1200px) {
+    /* Styles for large tablets and small desktops */
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile devices */
+}
+
+@media (max-width: 480px) {
+    /* Styles for smaller mobile devices */
+}
+
+body {
+    background-color: black;
+    font-family: "Manrope", sans-serif;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo p {
+    font-size: 46px;
+    font-weight: bolder;
+    color: #ffffff;
+    position: relative;
+    left: 5px;
+    margin-left: 10%;
+    margin-top: 2%;
+    transition: all 0.3s ease 0s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.logo p:hover {
+    color: rgb(255, 228, 170);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    border-bottom: #D0C7C7 1px solid;
+}
+
+
+.navbar {
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 5%;
+    background-color: transparent;
+   
+}
+
+
+.nav-items {
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-items li {
+    margin-left: 20px; 
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Manrope", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    position: relative;
+    padding: 0;
+    border-bottom: 2px white;
+    transition: color 0.3 ease, white 0.3 ease;
+}
+
+.nav-items li a:hover {
+    color: yellow;
+}
+
+
+.auth-tab {
+    position: relative; 
+}
+
+.auth-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.auth-dropdown li {
+    margin: 0;
+}
+
+.auth-dropdown li a {
+    color: white; 
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.auth-dropdown li a:hover {
+    background-color: #f9d71c; 
+    color: black; 
+}
+
+.auth-tab:hover .auth-dropdown {
+    display: block;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.form-container {
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.form-group input:focus {
+    border-color: white;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: yellow;
+    box-shadow: #D0C7C7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffeb3b;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 130px;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 25px;
+    border-radius: 20%;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a {
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+    color: rgb(255, 228, 170);
+}
